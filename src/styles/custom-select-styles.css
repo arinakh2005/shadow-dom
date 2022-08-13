@@ -34,6 +34,10 @@
     padding: 5px 0;
 }
 
+.country:hover {
+    cursor: pointer;
+}
+
 .us {
     background-image: url("../images/countriesFlags/usa.png");
 }
