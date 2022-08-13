@@ -1,0 +1,55 @@
+.shadow-list {
+    margin: 0 30%;
+    max-width: 250px;
+    min-width: 200px;
+}
+
+.select-header {
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.country-on-header {
+    flex-grow: 1;
+}
+
+.checkbox-icon {
+    padding: 0 2px;
+    rotate: 180deg;
+}
+
+.select-body {
+    border: 1px solid black;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.country {
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right;
+    padding: 5px 0;
+}
+
+.us {
+    background-image: url("../images/countriesFlags/usa.png");
+}
+
+.au {
+    background-image: url("../images/countriesFlags/australia.png");
+}
+
+.at {
+    background-image: url("../images/countriesFlags/austria.png");
+}
+
+.be {
+    background-image: url("../images/countriesFlags/belgium.png");
+}
+
+.bg {
+    background-image: url("../images/countriesFlags/bulgaria.png");
+}
